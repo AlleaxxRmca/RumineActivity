@@ -176,6 +176,93 @@ p[b-xo693ivx0e]{
     font-size: 0.95em;
     line-height: 140%;
 }
+/* /Pages/RageStatisticsPage.razor.rz.scp.css */
+.rages-statistics[b-89jtr5wtgc]{
+    margin: 0 8px;
+}
+.rages-table[b-89jtr5wtgc] {
+    border-collapse: collapse;
+    border: 1px solid gainsboro;
+    margin: 8px;
+}
+
+    .rages-table td[b-89jtr5wtgc] {
+        padding: 2px 4px;
+        border-bottom: 1px solid gainsboro;
+    }
+
+    .rages-table th[b-89jtr5wtgc] {
+        padding: 4px;
+        border-bottom: 1px solid silver;
+        text-align: left;
+    }
+    .sortable:hover[b-89jtr5wtgc]{
+        background-color: whitesmoke;
+        cursor: pointer;
+        user-select: none;
+    }
+    .sort-symbol[b-89jtr5wtgc]{
+        display: inline-block;
+        width: 1em;
+        font-size: 0.8em;
+    }
+
+    .rages-table .overall td[b-89jtr5wtgc]{
+        padding: 12px 4px;
+    }
+
+    .rages-table .rage-position[b-89jtr5wtgc] {
+        text-align: center;
+    }
+
+    .rages-table .rage-title[b-89jtr5wtgc] {
+        text-align: left;
+    }
+
+.rage-image img[b-89jtr5wtgc] {
+    width: 30px;
+}
+
+.rage-posts[b-89jtr5wtgc] {
+    text-align: right;
+}
+
+.rage-total[b-89jtr5wtgc] {
+    text-align: right;
+}
+.rage-coeff[b-89jtr5wtgc]{
+    text-align: right;
+}
+
+.filters ul[b-89jtr5wtgc]{
+    font-size: 0.9em;
+}
+
+.filters-list[b-89jtr5wtgc]{
+    display: flex;
+    margin: 8px;
+}
+.filter-item[b-89jtr5wtgc]{
+    display: block;
+    padding: 4px 6px;
+    border: 1px solid rgb(240,240,240);
+}
+.filter-item:hover[b-89jtr5wtgc]{
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.filter-item.current[b-89jtr5wtgc]{
+    background-color: gainsboro;
+    border-color: silver;
+}
+.filters-list label[b-89jtr5wtgc]{
+}
+
+
+h4[b-89jtr5wtgc]{
+    margin-bottom: 8px;
+}
 /* /Pages/StatisticsPage.razor.rz.scp.css */
 
 .report-section[b-jtp1ha8dn7] {
@@ -564,6 +651,13 @@ header h2[b-u8ha7qv87y] {
     user-select: none;
     color: red;
 }
+
+
+@media (max-device-width:480px) {
+    .menu[b-u8ha7qv87y] {
+        flex: 0;
+    }
+}
 /* /Shared/NewLayout.razor.rz.scp.css */
 body[b-jpd2x4nz2d] {
     background-color: var(--background-color);
@@ -593,6 +687,13 @@ body[b-jpd2x4nz2d] {
         min-height: 80vh;
         flex: 18;
     }
+
+@media (max-device-width:480px) {
+    .main-content[b-jpd2x4nz2d] {
+        flex-direction: column;
+    }
+}
+
 /* /Shared/ReportComponents/EntriesList.razor.rz.scp.css */
 
 .tables[b-ux7xr4i4dx] {
