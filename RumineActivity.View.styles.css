@@ -682,7 +682,9 @@ a.report-type-block[b-hwezrg6b29] {
 }
 @media (max-device-width:480px) {
     .menu[b-975kdumxp2]{
+        flex: 0;
         align-self: stretch;
+        position: initial;
     }
 }
 
@@ -733,12 +735,6 @@ header h2[b-975kdumxp2] {
     color: red;
 }
 
-
-@media (max-device-width:480px) {
-    .menu[b-975kdumxp2] {
-        flex: 0;
-    }
-}
 /* /Components/Shared/Layout/NewLayout.razor.rz.scp.css */
 body[b-ns5gbzxdui] {
     background-color: var(--background-color);
